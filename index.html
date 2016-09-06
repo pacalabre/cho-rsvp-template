@@ -1,0 +1,68 @@
+<html>
+<head>
+  <title>CHO Speaker Bio</title>
+  <link rel="stylesheet" type="text/css" href="css-reset.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <section class="header-img container-fluid">
+    <img class="cho-img" src="cho_img.jpg">
+    <section class="header-text-section">
+      <h3 class="header-text">What Millenials Want From Work</h3>
+      <h3 class="header-text">Speaker, Alec Levenson of Center for Effective Organizations</h3>
+      <h3 class="header-text">Wednesday, October 26, 2016</h3>
+    </section>
+  </section>
+  <main>
+    <section>
+      <img  class="speaker-img" src="speaker_alec.png">
+      <section class="speaker-section">
+        <h2>Alec Levenson</h2>
+        <h3 class="speaker-h3">Economist and Senior Research Scientist, Center for Effective Organizations, Marshall School of Business, USC</h3>
+      </section>
+    </section>
+    <section class="bio-text">
+
+    </section>
+     <h3 class="page_title">RSVP Here:</h3>
+      <br />
+    <form>
+      <fieldset class="form-group">
+        <label>First Name</label><br />
+        <input class="textInput" type="text" name="firstName" required="" />
+      </fieldset>
+      <fieldset class="form-group">
+         <label>Last Name</label><br />
+        <input class="textInput col-md-3" type="text" name="lastName" required="" />
+      </fieldset>
+      <fieldset class="form-group">
+        <label>Email</label><br />
+        <input class="textInput col-md-3" type="text" name="Email" required="" />
+      </fieldset>           <br />
+      <fieldset class="form-group">
+        <label>Will you be attending the event?</label><br />
+          <div class="radioSection">
+          <input class="col-2 radio_button" id="yesRadio radio_button" type="radio" name="attending" value="yes" required="" />               <label for="yesRadio" class="labelButton yesRadio">                 Yes
+        </label>               <br />
+        <input class="col-2 radio_button" id="noRadio" type="radio" name="attending" value="no" required="" />
+         <label for="noRadio" class="labelButton noRadio">                 No
+         </label></div>
+        </fieldset>
+        <fieldset class="form-group">
+          <label>Would you like us to email you about similar events in the future?</label><br />
+          <div class="radioSection">
+            <input class="col-2 radio_button" id="yesRadio" type="radio" name="futureEmails" value="yes" />
+            <label for="yesRadio" class="labelButton yesRadio">                 Yes               </label>
+             <br />
+          <input class="col-2 radio_button" id="noRadio" type="radio" name="futureEmails" value="no" />               <label for="noRadio" class="labelButton noRadio">                 No               </label></div>
+        </fieldset>
+        <div class="wrapper"><input class="btn submit-btn" type="submit" /></div>
+    </form>
+  </main>
+  <footer class="footer">
+    <img class="footer-img" src="cho_img.jpg">
+<!--     <h4 class="footer-cho">CHO Group</h4> -->
+  </footer>
+</body>
+</html>

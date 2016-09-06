@@ -63,6 +63,7 @@ input {
   font-size: 25px;
   display: block;
   margin: 2% 40% 20px 40%;
+  text-transform: uppercase;
 }
 
 .submit-btn {

@@ -16,6 +16,16 @@ label, input {
   width: 60%;
 }
 
+label {
+  font-size: 17px;
+}
+
+input {
+  border-radius: 5px;
+  border: 1px solid;
+  font-size: 25px;
+}
+
 .header-img {
   background-image: url('dark_city_img.jpg');
   height: 400px;
@@ -39,6 +49,12 @@ label, input {
   color: white;
   text-align: center;
   font-size: 22px;
+}
+
+.event-details-section {
+  margin: 5% auto 0 auto;
+  display: block;
+  width: 33em;
 }
 
 .btn {

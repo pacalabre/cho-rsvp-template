@@ -1,4 +1,4 @@
-@import 'https://fonts.googleapis.com/css?family=Raleway:600|Roboto:400|Roboto:100';
+@import 'https://fonts.googleapis.com/css?family=Raleway:600|Roboto:300|Roboto:100';
 
 body{
   margin: 0px;
@@ -51,13 +51,23 @@ input {
   font-family: roboto;
   color: white;
   text-align: center;
-  font-size: 22px;
+  font-size: 25px;
+}
+
+.headline {
+  font-size: 40px;
 }
 
 .event-details-section {
   margin: 5% auto 0 auto;
   display: block;
-  width: 33em;
+  width: 41em;
+  font-family: roboto;
+  font-weight: 300;
+}
+
+.event-details-section-info {
+  font-size: 22px;
 }
 
 .btn {
@@ -114,6 +124,9 @@ input {
 
 .page_title {
   text-align: center;
+  font-family: roboto;
+  font-weight: 300;
+  font-size: 40px;
 }
 
 .footer {

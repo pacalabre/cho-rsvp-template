@@ -66,7 +66,7 @@ input {
   font-weight: 300;
 }
 
-.event-details-section-info {
+.event-details-section-info-header {
   font-size: 22px;
 }
 
@@ -197,5 +197,25 @@ input {
 @media only screen and (max-width: 450px) {
   .rsvp-btn {
     margin-top: 65%;
+  }
+
+  .header-text {
+    font-size: 18px;
+  }
+
+  .headline {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .event-details-section {
+    width: 25em;
+  }
+  .event-details-section-info-header {
+    font-size: 20px;
+  }
+
+  .event-details-section-info {
+    font-size: 15px;
   }
 }

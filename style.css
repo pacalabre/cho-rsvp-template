@@ -44,18 +44,20 @@ input {
 }
 
 .header-text-section {
-  padding: 10px;
+  margin-top: -2%;
 }
 
 .header-text {
   font-family: roboto;
   color: white;
   text-align: center;
-  font-size: 25px;
+  font-size: 30px;
+
 }
 
 .headline {
   font-size: 40px;
+  text-align: center;
 }
 
 .event-details-section {
@@ -152,6 +154,10 @@ input {
     margin-left: 10%;
   }
 
+  .header-text {
+    font-size: 25px;
+  }
+
   .footer-img {
     margin-top: 3%;
   }
@@ -167,6 +173,17 @@ input {
     display: block;
   }
 
+  .headline {
+    font-size: 30px;
+  }
+
+  .event-details-section {
+    width: 39em;
+  }
+  .event-details-section-info-header {
+    font-size: 25px;
+  }
+
   .speaker-section {
     margin: 0px 15% 0px 20%;
   }
@@ -180,9 +197,12 @@ input {
 }
 
 @media only screen and (max-width: 550px) {
-  .btn {
-    margin-left: 30%;
-    margin-right: 30%;
+  .headline {
+    font-size: 22px;
+  }
+
+  .event-details-section {
+    width: 30em;
   }
 
   .rsvp-btn {
@@ -195,6 +215,9 @@ input {
 }
 
 @media only screen and (max-width: 450px) {
+  label {
+    font-size: 20px;
+  }
   .rsvp-btn {
     margin-top: 65%;
   }
@@ -205,7 +228,6 @@ input {
 
   .headline {
     font-size: 20px;
-    text-align: center;
   }
 
   .event-details-section {
@@ -218,4 +240,9 @@ input {
   .event-details-section-info {
     font-size: 15px;
   }
+
+  .page-title {
+    font-size: 30px;
+  }
+
 }

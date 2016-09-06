@@ -8,7 +8,8 @@ footer {
 }
 
 p {
-  font-size: 15px;
+  font-size: 17px;
+  font-family: roboto;
 }
 
 label, input {
@@ -70,6 +71,11 @@ input {
 
 .event-details-section-info-header {
   font-size: 22px;
+}
+
+.bio-text-p {
+  font-size: 17px;
+  font-family: roboto;
 }
 
 .btn {
@@ -203,6 +209,10 @@ input {
 
   .event-details-section {
     width: 30em;
+  }
+
+  .bio-text-p {
+    font-size: 15px;
   }
 
   .rsvp-btn {
